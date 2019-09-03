@@ -1,3 +1,4 @@
+import 'package:devlly_chat_app/pages/ConversationPage.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -33,24 +34,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
-      appBar: AppBar(
-
-        title: Text(widget.title),
-      ),
-      body: Center(
-
-        child: Column(
-
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'Hello World!',
-            ),
-
-          ],
-        ),
-      ),
-    );
+    return ConversationPage();
   }
 }
