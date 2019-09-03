@@ -1,9 +1,12 @@
-import 'package:flutter/material.dart';
 import 'package:devlly_chat_app/config/Assets.dart';
 import 'package:devlly_chat_app/config/Palette.dart';
+import 'package:flutter/material.dart';
 
 class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const ChatAppBar();
+
   final double height = 100;
+
   @override
   Widget build(BuildContext context) {
     var textHeading = TextStyle(color: Palette.primaryTextColor, fontSize: 20); // Text style for the name
