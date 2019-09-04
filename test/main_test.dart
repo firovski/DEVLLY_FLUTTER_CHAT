@@ -6,14 +6,14 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:devlly_chat_app/main.dart';
-import 'package:devlly_chat_app/pages/ConversationPageList.dart';
+import 'package:devlly_chat_app/pages/ConversationPageSlide.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   testWidgets('Main UI Test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(Devlly());
-    expect(find.byType(ConversationPageList), findsOneWidget);
+    expect(find.byType(ConversationPageSlide), findsOneWidget);
 
   });
 }

@@ -1,4 +1,4 @@
-import 'package:devlly_chat_app/pages/ConversationPage.dart';
+import 'package:devlly_chat_app/pages/ConversationPageSlide.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(Devlly());
@@ -33,7 +33,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-
-    return ConversationPage();
+    return ConversationPageSlide();
   }
 }
