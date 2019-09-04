@@ -25,7 +25,7 @@ class ChatItemWidget extends StatelessWidget{
                   padding: EdgeInsets.fromLTRB(15.0, 10.0, 15.0, 10.0),
                   width: 200.0,
                   decoration: BoxDecoration(
-                      color: Palette.selfMessageBackgroundColor,
+                      color: Colors.redAccent,
                       borderRadius: BorderRadius.circular(8.0)),
                   margin: EdgeInsets.only(right: 10.0),
                 )
@@ -63,7 +63,7 @@ class ChatItemWidget extends StatelessWidget{
                   padding: EdgeInsets.fromLTRB(15.0, 10.0, 15.0, 10.0),
                   width: 200.0,
                   decoration: BoxDecoration(
-                      color: Palette.otherMessageBackgroundColor,
+                      color: Colors.redAccent.withOpacity(0.2),
                       borderRadius: BorderRadius.circular(8.0)),
                   margin: EdgeInsets.only(left: 10.0),
                 )
