@@ -12,7 +12,6 @@ void main() {
 
     expect(find.text('Aditya Gurjar'), findsOneWidget);
     expect(find.text('@adityagurjar'), findsOneWidget);
-    expect(find.byType(IconButton), findsNWidgets(1));
     expect(find.byType(CircleAvatar), findsOneWidget);
   });
 }
